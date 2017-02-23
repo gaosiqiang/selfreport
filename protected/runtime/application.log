@@ -1,0 +1,1426 @@
+2016/04/20 15:20:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:20:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:21:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:21:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:24:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:24:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:49:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:49:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:49:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 15:49:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:11:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:11:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:11:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:11:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:12:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:12:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:20:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:20:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:20:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:20:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:20:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:20:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "static/css/bootstrap.css.map"。' in /usr/local/var/www/selfreport/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/boot...')
+#1 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/bootstrap.css.map
+---
+2016/04/20 16:25:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:25:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:25:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:25:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:26:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:26:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:26:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/20 16:26:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/26 16:32:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/26 16:32:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/27 10:17:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/27 10:17:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/27 10:18:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/27 10:18:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/27 16:37:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2016/04/27 16:37:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message '需要先登入系统' in /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xE6\x82\xA8\xE6\x9C\xAA\xE8\xA2\xAB\xE6\x8E\x88\xE6\x9D\x83...')
+#2 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#7 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#9 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#10 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2017/02/23 23:11:44 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('ov17f271si2jd7o...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2017/02/23 23:12:14 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:12:17 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('9nufkkllnll6fav...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2017/02/23 23:12:47 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:13:26 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2017/02/23 23:13:56 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:14:56 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/
+---
+2017/02/23 23:15:26 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:15:16 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/
+---
+2017/02/23 23:15:46 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:20:39 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('login')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://report.com/
+---
+2017/02/23 23:21:09 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:20:40 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('login')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://report.com/
+---
+2017/02/23 23:21:10 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:20:41 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('login')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://report.com/
+---
+2017/02/23 23:21:11 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:20:41 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('login')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://report.com/
+---
+2017/02/23 23:21:11 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:20:41 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('login')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://report.com/
+---
+2017/02/23 23:21:11 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:20:41 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('login')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://report.com/
+---
+2017/02/23 23:21:11 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:22:12 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2017/02/23 23:22:42 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:22:32 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('ajaxcitiesautoc...')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('ajax/ajaxcities...')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/ajax/ajaxcitiesautocomplete
+HTTP_REFERER=http://report.com/login
+---
+2017/02/23 23:23:02 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out

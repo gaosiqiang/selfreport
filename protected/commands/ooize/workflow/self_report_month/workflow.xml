@@ -1,0 +1,70 @@
+<!--
+  Licensed to the Apache Software Foundation rASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<workflow-app xmlns="uri:oozie:workflow:0.4" name="self_report_month-wf">
+   <global>
+       <configuration>
+            <property>
+               <name>hive.variable.substitute.depth</name>
+               <value>1000</value>
+            </property>
+       </configuration>
+    </global>	
+    <start to="goods_svr"/>
+    
+    <action name='goods_svr'>
+        <shell xmlns="uri:oozie:shell-action:0.1">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <configuration>
+                <property>
+                  <name>mapred.job.queue.name</name>
+                  <value>${queueName}</value>
+                </property>
+            </configuration>
+            
+            <exec>shell-scripts/selfreport_month_goods_svr.sh</exec>
+            <!-- <argument>${yesterday_date_format}</argument> -->
+            
+            <file>shell-scripts/selfreport_month_goods_svr.sh#selfreport_month_goods_svr.sh</file>
+            
+            <file>hive-scripts/export_dcp_goods_sale_verify_refund_month.sql#export_dcp_goods_sale_verify_refund_month.sql</file>
+            
+            <file>mysql-scripts/import_dcp_goods_sale_verify_refund_month.sql#import_dcp_goods_sale_verify_refund_month.sql</file>
+
+            <file>conf/base.conf#base.conf</file>
+            <file>hive-site.xml</file>
+        </shell>
+        <ok to="end" />
+        <error to="fail" />
+    </action>
+    
+    <action name="fail-email">
+        <email xmlns="uri:oozie:email-action:0.1">
+            <to>cuimingli@55tuan.com</to>
+            <cc>zhangzhenghong@55tuan.com</cc>
+            <subject>Email notifications for ${wf:id()}</subject>
+            <body>The wf ${wf:name()} ( ${wf:id()})| acton ${wf:lastErrorNode()} failed, error message[${wf:errorMessage(wf:lastErrorNode())}].</body>
+        </email>
+        <ok to="fail"/>
+        <error to="fail"/>
+    </action>
+    <kill name="fail">
+        <message>Sqoop failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
