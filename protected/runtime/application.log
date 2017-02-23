@@ -1424,3 +1424,31 @@ REQUEST_URI=/ajax/ajaxcitiesautocomplete
 HTTP_REFERER=http://report.com/login
 ---
 2017/02/23 23:23:02 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
+2017/02/23 23:29:35 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php:68
+Stack trace:
+#0 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisConnection.php(68): Redis->setOption(2, '')
+#1 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(53): ARedisConnection->getClient()
+#2 [internal function]: ARedisSession->readSession('fksjj4b1rdgd76f...')
+#3 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(114): session_start()
+#4 /usr/local/var/www/selfreport/framework/web/CHttpSession.php(88): CHttpSession->open()
+#5 /usr/local/var/www/selfreport/protected/extensions/redis/ARedisSession.php(33): CHttpSession->init()
+#6 /usr/local/var/www/selfreport/framework/base/CModule.php(387): ARedisSession->init()
+#7 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(201): CModule->getComponent('session')
+#8 /usr/local/var/www/selfreport/framework/web/auth/CWebUser.php(199): CWebApplication->getSession()
+#9 /usr/local/var/www/selfreport/framework/base/CModule.php(387): CWebUser->init()
+#10 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#11 /usr/local/var/www/selfreport/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#12 /usr/local/var/www/selfreport/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#13 /usr/local/var/www/selfreport/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /usr/local/var/www/selfreport/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /usr/local/var/www/selfreport/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /usr/local/var/www/selfreport/framework/web/CController.php(291): CFilterChain->run()
+#17 /usr/local/var/www/selfreport/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(282): CController->run('')
+#19 /usr/local/var/www/selfreport/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#20 /usr/local/var/www/selfreport/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /usr/local/var/www/selfreport/htdocs/index.php(33): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2017/02/23 23:30:05 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Operation timed out
